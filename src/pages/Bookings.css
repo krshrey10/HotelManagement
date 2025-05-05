@@ -1,0 +1,66 @@
+/* src/pages/Bookings.css */
+.bookings-container {
+    padding: 40px;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+  }
+  
+  .bookings-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .no-bookings {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  .bookings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .booking-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .booking-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .room-name {
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  
+  .status-badge {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+  }
+  
+  .status-badge.approved {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .status-badge.pending {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .timestamp {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
