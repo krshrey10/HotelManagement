@@ -20,7 +20,7 @@ import './App.css';  // Import the global CSS for header
 
 function App() {
   return (
-    <Router>
+    <Router basename="/HotelManagement">
       <div>
         <header className="app-header">
           <div className="logo">
